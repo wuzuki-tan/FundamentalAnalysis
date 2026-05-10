@@ -16,7 +16,7 @@ file_path = 'stock_list.txt'
 # Read the stock list
 stock_list = read_stock_list(file_path)
 
-st.title("STOMKS by wuzuki_tan")
+st.title("Stock Analysis by Divyanshu")
 choice=st.selectbox("Enter your choice",stock_list)
 
 
